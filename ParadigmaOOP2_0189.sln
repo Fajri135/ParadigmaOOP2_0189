@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polymorphy_0189", "Paradigm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Overrid_0189", "Overrid_0189\Overrid_0189.vcxproj", "{8B8B333E-6218-42B5-8114-1ECEC606405B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoInheritance_0189", "NoInheritance_0189\NoInheritance_0189.vcxproj", "{8E630A09-2A7B-44E1-9F30-078A53012B41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{8B8B333E-6218-42B5-8114-1ECEC606405B}.Release|x64.Build.0 = Release|x64
 		{8B8B333E-6218-42B5-8114-1ECEC606405B}.Release|x86.ActiveCfg = Release|Win32
 		{8B8B333E-6218-42B5-8114-1ECEC606405B}.Release|x86.Build.0 = Release|Win32
+		{8E630A09-2A7B-44E1-9F30-078A53012B41}.Debug|x64.ActiveCfg = Debug|x64
+		{8E630A09-2A7B-44E1-9F30-078A53012B41}.Debug|x64.Build.0 = Debug|x64
+		{8E630A09-2A7B-44E1-9F30-078A53012B41}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E630A09-2A7B-44E1-9F30-078A53012B41}.Debug|x86.Build.0 = Debug|Win32
+		{8E630A09-2A7B-44E1-9F30-078A53012B41}.Release|x64.ActiveCfg = Release|x64
+		{8E630A09-2A7B-44E1-9F30-078A53012B41}.Release|x64.Build.0 = Release|x64
+		{8E630A09-2A7B-44E1-9F30-078A53012B41}.Release|x86.ActiveCfg = Release|Win32
+		{8E630A09-2A7B-44E1-9F30-078A53012B41}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
