@@ -30,7 +30,17 @@ public:
 	}
 };
 
+class Budi : public Pekerja, public Pelajar {
+public:
 
+	Budi(int pUmur) :
+		Pekerja(pUmur),
+		Pelajar(pUmur),
+		Orang(pUmur)  //hal ini dapat dilakukan jika menggunakan virtual 
+	{
+		cout << "budi dibuat\n" << endl;
+	}
+};
 
 int main() {
 	;
