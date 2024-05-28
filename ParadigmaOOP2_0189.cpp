@@ -1,7 +1,8 @@
 #include <iostream> 
 using namespace std;
 
-class seseorang {
+class seseorang
+{
 public:
     // Pure virtual function
     virtual void pesan() = 0;
@@ -13,7 +14,8 @@ public:
     // }
 };
 
-class joko : public seseorang {
+class joko : public seseorang 
+{
 public:
     // Deklarasi
     void pesan()
@@ -23,7 +25,16 @@ public:
     }
 };
 
+class lia : public seseorang
+{
+public:
+    void pesan()
+    {
+        cout << "Pesan dari lia" << endl;
+    }
+};
+
 int main()
 {
-    ;
+    
 }
